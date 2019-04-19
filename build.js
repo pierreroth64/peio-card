@@ -20,11 +20,11 @@ let output = `
 ∙ Crafting software in front of the Pyrenees
 ∙ Trying to play the guitar... #NoComment ;)
 
-https://${chalk.blue("twitter")}.com/${chalk.cyan("peioroth64")}
-https://${chalk.cyan("peio")}.now.sh
-https://${chalk.blue("github")}.com/${chalk.cyan("pierreroth64")} 
-https://${chalk.blue("linkedin")}.com/in/${chalk.cyan("pierreroth")}
-$ npx ${chalk.cyan("peio")}`;
+https://${chalk.magenta("twitter")}.com/${chalk.cyanBright("peioroth64")}
+https://${chalk.cyanBright("peio")}.now.sh
+https://${chalk.magenta("github")}.com/${chalk.cyanBright("pierreroth64")} 
+https://${chalk.magenta("linkedin")}.com/in/${chalk.cyanBright("pierreroth")}
+$ npx ${chalk.cyanBright("peio")}`;
 
 const [, ...trimmed] = output.split("\n");
 const card = chalk.white(boxen(trimmed.join("\n"), options));
@@ -39,6 +39,6 @@ function cardTitle(text, font) {
   });
   return `\n${title
     .split("\n")
-    .map(line => `${chalk.cyan.bold(line)}`)
+    .map(line => `${chalk.cyanBright.bold(line)}`)
     .join("\n")}`;
 }

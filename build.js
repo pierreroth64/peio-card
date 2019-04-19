@@ -20,11 +20,11 @@ let output = `
 ∙ Crafting software in front of the Pyrenees
 ∙ Trying to play the guitar... #NoComment ;)
 
+https://${chalk.magenta("about")}.me/${chalk.cyanBright("peioroth")}
 https://${chalk.magenta("twitter")}.com/${chalk.cyanBright("peioroth64")}
 https://${chalk.cyanBright("peio")}.now.sh
 https://${chalk.magenta("github")}.com/${chalk.cyanBright("pierreroth64")} 
-https://${chalk.magenta("linkedin")}.com/in/${chalk.cyanBright("pierreroth")}
-$ npx ${chalk.cyanBright("peio")}`;
+https://${chalk.magenta("linkedin")}.com/in/${chalk.cyanBright("pierreroth")}`;
 
 const [, ...trimmed] = output.split("\n");
 const card = chalk.white(boxen(trimmed.join("\n"), options));

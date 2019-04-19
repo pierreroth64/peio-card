@@ -1,0 +1,31 @@
+{
+  "name": "peio",
+  "version": "1.0.0",
+  "description": "Peio's card",
+  "main": "index.js",
+  "bin": {
+    "peio": "./index.js"
+  },
+  "files": [
+    "bin/output"
+  ],
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreroth64/peio-card.git"
+  },
+  "keywords": [],
+  "author": "Peio ROTH <pierreroth64@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierreroth64/peio-card/issues"
+  },
+  "homepage": "https://github.com/pierreroth64/peio-card#readme",
+  "devDependencies": {
+    "boxen": "3.1.0",
+    "chalk": "2.4.2"
+  }
+}

@@ -12,6 +12,7 @@
   "scripts": {
     "postinstall": "node ./index.js",
     "build": "node ./build.js",
+    "preversion": "npm run build",
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "repository": {

@@ -19,8 +19,7 @@ let output = `
 
 ∙ Developer at @eove loving TDD, DDD, XP, ...
 ∙ Crafting software in front of the Pyrenees
-∙ Trying to play the guitar #NoComment ;)
-
+∙ Trying to play the guitar... #NoComment ;)
 
   https://${chalk.blue("twitter")}.com/${chalk.cyan("peioroth64")}
       https://${chalk.cyan("peio")}.now.sh

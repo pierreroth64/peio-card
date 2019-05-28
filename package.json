@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/pierreroth64/peio-card#readme",
   "devDependencies": {
-    "boxen": "3.1.0",
+    "boxen": "3.2.0",
     "chalk": "2.4.2"
   },
   "dependencies": {
-    "figlet": "^1.2.1"
+    "figlet": "1.2.3"
   }
 }

@@ -20,7 +20,7 @@ let output = `
 ∙ Crafting software in front of the Pyrenees
 ∙ Trying to play the guitar... #NoComment ;)
 
-https://${chalk.magenta("about")}.me/${chalk.cyanBright("peioroth")}`;
+https://${chalk.cyanBright("peio")}.${chalk.magenta("now")}.sh/`;
 
 const [, ...trimmed] = output.split("\n");
 const card = chalk.white(boxen(trimmed.join("\n"), options));

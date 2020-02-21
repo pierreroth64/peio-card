@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/pierreroth64/peio-card#readme",
   "devDependencies": {
-    "boxen": "4.1.0",
-    "chalk": "2.4.2"
+    "boxen": "4.2.0",
+    "chalk": "3.0.0"
   },
   "dependencies": {
     "figlet": "1.2.4"

@@ -18,7 +18,7 @@ let output = `
 
 ∙ Developer at @eove loving TDD, DDD, XP, ...
 ∙ Crafting software in front of the Pyrenees
-∙ Trying to play the guitar... #NoComment ;)
+∙ Trying to help our planet...
 
 https://${chalk.cyanBright("peio")}.${chalk.magenta("now")}.sh/`;
 

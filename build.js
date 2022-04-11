@@ -18,9 +18,9 @@ let output = `
 
 ∙ Developer at @eove loving TDD, DDD, XP, ...
 ∙ Crafting software in front of the Pyrenees
-∙ Trying to help our planet...
+∙ Building a micro-farm...
 
-https://${chalk.cyanBright("peio")}.${chalk.magenta("now")}.sh/`;
+https://${chalk.cyanBright("peio.dev")}/`;
 
 const [, ...trimmed] = output.split("\n");
 const card = chalk.white(boxen(trimmed.join("\n"), options));

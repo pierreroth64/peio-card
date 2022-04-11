@@ -16,9 +16,9 @@ const path = require("path");
 let output = `
        ${cardTitle("peio", "Bulbhead")}
 
-∙ Developer at @eove loving TDD, DDD, XP, ...
+∙ Developer at @eove loving XP and DDD
 ∙ Crafting software in front of the Pyrenees
-∙ Building a micro-farm...
+∙ Building a micro-farm
 
 https://${chalk.cyanBright("peio.dev")}/`;
 
